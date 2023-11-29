@@ -40,7 +40,7 @@
 
 06.点击右上角编辑，然后选中 Tips.app，然后点击左下角的复制
 
-07.随便找个地方粘贴，然后将路径后面的 /Tips.app 删除，前面加上 chflags schg,schange,simmutable 
+07.随便找个地方粘贴，然后将路径后面的 /Tips.app 删除，前面加上 chflags -R schg,schange,simmutable 
 
 下面是一个实际的例子：
 
@@ -104,7 +104,7 @@
 
 06.点击右上角编辑，然后选中 Tips.app，然后点击左下角的复制
 
-07.随便找个地方粘贴，然后将路径后面的 /Tips.app 删除，前面加上 chflags noschg,noschange,nosimmutable 
+07.随便找个地方粘贴，然后将路径后面的 /Tips.app 删除，前面加上 chflags -R noschg,noschange,nosimmutable 
 
 下面是一个实际的例子：
 
