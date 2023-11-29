@@ -1,4 +1,5 @@
 # chflags TrollHelper
+## 不保证 100% 成功，不过比起隔壁需要依靠多任务的 TrollStore 我这个靠谱多了，但是出了问题也不要来找我，我就提供个方法给你参考而已
 ## 锁定已拥有的 TrollHelper 并通过 OTA 带上 iOS 16.6.1 或者 iOS 17.0
 ### 一、请先安装最新版本的 TrollStore 和通过 AppStore 安装 Tips（提示）
 
