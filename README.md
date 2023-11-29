@@ -50,7 +50,7 @@
 
 请修改为
 
-	chflags schg,schange,simmutable /var/containers/Bundle/Application/1A3ED567-B13E-491D-8C88-2F5058CD8C4A
+	chflags -R schg,schange,simmutable /var/containers/Bundle/Application/1A3ED567-B13E-491D-8C88-2F5058CD8C4A
 
 08.将刚刚合成的命令复制到剪切板
 
@@ -114,7 +114,7 @@
 
 请修改为
 
-	chflags noschg,noschange,nosimmutable /var/containers/Bundle/Application/1A3ED567-B13E-491D-8C88-2F5058CD8C4A
+	chflags -R noschg,noschange,nosimmutable /var/containers/Bundle/Application/1A3ED567-B13E-491D-8C88-2F5058CD8C4A
 
 08.将刚刚合成的命令复制到剪切板
 
