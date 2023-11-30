@@ -52,6 +52,8 @@
 
 	chflags -R schg,schange,simmutable /var/containers/Bundle/Application/1A3ED567-B13E-491D-8C88-2F5058CD8C4A
 
+**请留意后方的 /Tips.app 应当移除，我留意到几个幸运儿没有移除，仅仅只是锁定了 Tips.app 文件夹，应该锁定 Tips.app 的上层文件夹**
+
 08.将刚刚合成的命令复制到剪切板
 
 09.找到 /usr/bin/vm_stat 并且点击运行
@@ -79,7 +81,9 @@
 
 感谢 Dhinak G
 
-接下来正常更新，不用管另一个教程说什么多任务里面保留 TrollStore，这个方法只需要更新后解锁 Tips 锁定
+接下来正常更新，这个方法只需要更新后解锁 Tips 锁定
+
+**小提示：如果你想要更保险，应该两个方法一起用，同时打开 TrollStore，保留在多任务中，为自己留下后路**
 ### 六、更新后的处理
 #### 6-1 刷新图标缓存
 
