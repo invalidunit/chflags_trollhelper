@@ -29,7 +29,7 @@
 	https://tigisoftware.com/cydia/
 
 安装好 Filza File Manager 64-bit 备用
-### 四、使用 Filza 自己释放 TrollHelper 到 Tips
+### 五、使用 Filza 自己释放 TrollHelper 到 Tips
 
 01.从 TrollStore 储存库中下载最新版本的 PersistenceHelper_Embedded，截止到写教程时最新版本为 2.0.8，请不要低于这个版本
 
@@ -59,7 +59,7 @@
 
 12.回到桌面打开“提示”app，应该能看到 TrollHelper，如果**闪退了**，请按照刚刚步骤，**重新设置** Tips 文件的权限
 
-### 五、锁定 Tips
+### 六、锁定 Tips
 
 01.打开 Filza
 
@@ -102,7 +102,7 @@
 你应该会看到“无法建立目录，未能储存该文件，因为您没有权限”，这是正常的，说明 Tips.app 的上层文件夹已被锁定
 
 若成功建立，请删除建立的文件夹，并重新按照上方教程操作
-### 六、延迟更新到 16.6.1 或者 17.0
+### 七、延迟更新到 16.6.1 或者 17.0
 
 本来不想写的，还是写一点吧
 
@@ -119,15 +119,15 @@
 感谢 Dhinak G
 
 接下来正常更新，这个方法只需要更新后解锁 Tips 锁定
-### 七、更新后的处理
-#### 7-1 刷新图标缓存
+### 八、更新后的处理
+#### 8-1 刷新图标缓存
 
 更新后 TrollStore 桌面图标点击无法打开，请直接打开 TrollHelper（Tips）
 
 点击 Refresh App Registrations 来刷新桌面图标缓存，当设备注销后 TrollStore 应该可以正常打开
 
 **请继续按照下面的步骤解锁 Tips，要不然你的 TrollHelper 可能后续无法安装 TrollStore**
-#### 7-2 接下来打开 Filza 解除 Tips 锁定
+#### 8-2 接下来打开 Filza 解除 Tips 锁定
 
 依然无法启动请重复第二部的步骤重新安装 Filza
 
