@@ -19,3 +19,7 @@
 安装 Disable Updates
 
 后续重新启用直接卸载即可
+
+**没越狱也没 TrollStore 的用户**
+
+别看了洗洗睡吧
