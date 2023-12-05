@@ -1,9 +1,21 @@
 # Disable Updates
 
-**终端运行**
+**没越狱用户**
 
-	rm -rf /var/MobileSoftwareUpdate/MobileAsset/AssetsV2/* && chflags schg,schange,simmutable /var/MobileSoftwareUpdate/MobileAsset/AssetsV2
+将下面命令复制到剪切板，然后使用 Filza 找到 /usr/bin/vm_stat 点击运行，然后粘贴下面命令并回车运行
+
+	chflags -R noschg,noschange,nosimmutable '/var/MobileSoftwareUpdate/MobileAsset/' && rm -rf '/var/MobileSoftwareUpdate/MobileAsset/' && mkdir -p '/var/MobileSoftwareUpdate/MobileAsset/AssetsV2/' && chmod -R 0777 '/var/MobileSoftwareUpdate/MobileAsset/AssetsV2/' && chmod -R 0777 '/var/MobileSoftwareUpdate/MobileAsset/' && chown -R mobile:mobile '/var/MobileSoftwareUpdate/MobileAsset/AssetsV2/' && chown -R mobile:mobile '/var/MobileSoftwareUpdate/MobileAsset/' && chflags schg,schange,simmutable '/var/MobileSoftwareUpdate/MobileAsset/AssetsV2/'
  
-后续重新启用
+后续重新启用请在 Filza 运行下面的命令
 
-	chflags noschg,noschange,nosimmutable /var/MobileSoftwareUpdate/MobileAsset/AssetsV2
+	chflags -R noschg,noschange,nosimmutable '/var/MobileSoftwareUpdate/MobileAsset/'
+
+**已越狱用户**
+
+请添加软件源
+
+	https://invalidunit.github.io/repo/
+
+安装 Disable Updates
+
+后续重新启用直接卸载即可
