@@ -1,6 +1,6 @@
 # chflags TrollHelper
 ## 不保证 100% 成功，反正出了问题不要来找我就行，我就提供个方法给你参考而已
-## 锁定已拥有的 TrollHelper 并通过 OTA 带上 iOS 16.6.1 或者 iOS 17.0
+## 锁定已拥有的 TrollHelper 并通过 OTA 带上 iOS 17.0
 ### 一、请先越狱你的设备
 
 这个自己安装去，不想写教程
